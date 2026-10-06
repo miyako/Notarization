@@ -1,5 +1,22 @@
 {
   "$comment": "Document-specific settings. Run `make inspect` and review; see tools/config.py for all keys and defaults.",
   "source_lang": "en",
-  "target_lang": "ja"
+  "target_lang": "ja",
+  "page_size": "letter",
+  "accent_color": "#2f5496",
+  "cover": {"page": 1, "lines": 3},
+  "skip_pages": [1, 2],
+  "footer_y": 714,
+  "heading": {
+    "fonts": ["HelveticaNeue-Medium"],
+    "min_size": 12.0,
+    "levels_by_x": {"73": 2, "91": 3}
+  },
+  "$code": "Code is set in SegoeUIHistoric 9.1pt; blue #0000ff is only a hyperlink. Indent rule disabled so indented Note continuations are not code.",
+  "code": {"colors": [], "fonts": ["SegoeUIHistoric"], "indent": 1000},
+  "$bullets": "Sub-bullets are a Courier 'o' followed by an ArialMT space.",
+  "bullets": {"fonts": ["SymbolMT", "CourierNewPSMT"], "strip_fonts": ["ArialMT"]},
+  "$caption": "No figure captions in this note; italic lines are 'Note:' boxes, so caption detection is disabled.",
+  "caption": {"italic": true, "min_x": 10000},
+  "table": {"size": null}
 }
