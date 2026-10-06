@@ -1,0 +1,14 @@
+briannarentfrow — -zsh — 123x24
+Last login: Thu Sep 12 07:58:48 on
+briannarentfrow@admins—MacBook-Pro ~ % xcrun notarytool store-credentials --apple-id "
+team-id "
+This process stores your credentials securely in the Keychain. You reference these credentials later using a profile name.
+Profile name:
+App-specific password for
+Validating your credentials...
+Success.
+Credentials validated.
+Credentials saved to Keychain.
+To use them, specify
+keychain-profile "notaryTN"
+briannarentfrow@admins—MacBook-Pro ~ %

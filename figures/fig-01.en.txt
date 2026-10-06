@@ -1,0 +1,17 @@
+Build Application
+Application Name:
+SampleApp
+Destination Folder:
+"SampleApp_Build" in volume "Macintosh HD"
+Compiled structure Application Client/Server
+Plugins & components Licenses & Certificate
+Build stand-alone Application
+The application will be built in a "Final application" folder inside the destination folder.
+The "Plugins", "Resources", and "Components" folders located next to the structure will also be copied into it
+4D Volume Desktop Location
+"4D Volume Desktop.app" in volume "Macintosh HD"
+Data linking mode based upon the: Application name
+Save settings
+2
+Cancel
+Build

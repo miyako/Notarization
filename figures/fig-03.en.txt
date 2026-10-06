@@ -1,0 +1,6 @@
+“SampleApp.app” Not Opened
+Apple could not verify “SampleApp.app”
+is free of malware that may harm your
+Mac or compromise your privacy.
+willie
+Done
