@@ -32,11 +32,42 @@ Full-width `（）` and `：` in prose. First occurrence of a technical term: �
 | query | クエリ | |
 | formula | フォーミュラ | |
 | component | コンポーネント | |
+| compile / Compiler… (Design menu) | コンパイル / 「コンパイラー...」 | menu item |
+| Design (menu) | 「デザイン」メニュー | |
+| Build Application | アプリケーションビルド | dialog and menu item |
+| Build Standalone Application | スタンドアロンアプリケーションをビルド | Application page checkbox |
+| Licenses & Certificate (tab) | 「ライセンス＆証明書」タブ | |
+| Sign Application (checkbox) | 「アプリケーションに署名」 | |
+| 4D Volume Desktop | 4D Volume Desktop | not translated |
+| compiled database | コンパイル済みデータベース | |
+| Resources folder | Resourcesフォルダー | folder name kept in English |
 
 ## Document-specific terms
 
 | English | 日本語 | Notes |
 |---|---|---|
+| notarization / notarize | 公証 / 公証する | Apple JA term; first occurrence 公証（notarization） |
+| staple / stapling | ステープル / ステープルする | first occurrence ステープル（stapling） |
+| notarytool | notarytool | tool name, in 「」 in the title and first mentions |
+| technical note | テクニカルノート | |
+| Apple Developer account | Apple Developerアカウント | |
+| Apple account | Appleアカウント | |
+| App-Specific Password | App用パスワード | Apple JA UI term |
+| Developer ID Application Certificate | Developer ID Application証明書 | |
+| certificate | 証明書 | |
+| keychain / keychain profile | キーチェーン / キーチェーンプロファイル | |
+| team ID | チームID | |
+| entitlements (file) | エンタイトルメント（ファイル） | first occurrence エンタイトルメント（entitlements） |
+| codesign identity | コード署名ID | first occurrence コード署名ID（codesign identity） |
+| ticket | チケット | |
+| Gatekeeper | Gatekeeper | not translated |
+| Terminal | ターミナル | |
+| Show Package Contents | 「パッケージの内容を表示」 | macOS Finder JA |
+| Done / Move to Trash | 「完了」/「ゴミ箱に入れる」 | macOS Sequoia alert buttons |
+| Requirements | 動作要件 | section title |
+| Abstract / Introduction / Conclusion | 概要 / はじめに / まとめ | section titles |
+| Note: | 注： | |
+| MacOS / Mac OS15 Sequoia | macOS / macOS 15 Sequoia | spelling normalised in JA |
 
 ## Proper nouns in examples
 

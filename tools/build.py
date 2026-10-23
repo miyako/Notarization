@@ -145,6 +145,13 @@ def print_pdf(html_path: Path, pdf_path: Path):
 
 def find_pages(pdf_path: Path, toc) -> dict:
     doc = pymupdf.open(pdf_path)
+    # Chrome keeps the TOC's #anchor links as named destinations: exact target pages.
+    # Text search is only a fallback, since a heading's words can also occur earlier in the body.
+    anchors = {a for _, _, a in toc}
+    linked = {l["nameddest"]: l["page"] + 1 for page in doc for l in page.get_links()
+              if l.get("nameddest") in anchors and l.get("page", -1) >= 0}
+    if len(linked) == len(anchors):
+        return linked
     pages, start = {}, 2  # skip cover and table of contents
     for level, text, anchor in toc:
         needle = re.sub(r"[*`]", "", text)
